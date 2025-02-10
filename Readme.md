@@ -170,6 +170,22 @@ precog/
 - **Paper Reading Task:**
   - Completed an in-depth paper reading, accompanied by a presentation (PPT) and video, discussing the reasoning and limitations of current language models.
 
+## Usage Instructions
+
+### Environment Setup
+
+1. **Clone the Repository:**
+   ```bash
+   git clone <repository-url>
+   cd <repository-directory>
+   ```
+
+2. **Install Dependencies:**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+
 Overall, all planned tasks were completed, including the bonus task. Additionally, advanced experiments in cross-lingual alignment were attempted, although some methods could not be fully executed due to resource limitations.
 
 ---
