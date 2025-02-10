@@ -99,7 +99,7 @@ precog/
 │               ├── implementation_2.py
 │               ├── quantitative_evaluation.py
 │               └── visualisation_evaluation.py
-├── paper_reading_task_link.txt        # Link(s) to the paper reading task resources
+├── paper_reading_task_link.txt        # Link to the paper reading task resources
 ├── part3/                            # Bonus task: Harmful Associations
 ├── test/                             # Testing scripts for gpu and time analysis for 1st part
 ├── requirements.txt                  # List of required Python packages
