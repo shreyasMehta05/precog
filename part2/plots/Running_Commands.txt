@@ -1,0 +1,6 @@
+python alignment.py --english data/english_embeddings.txt --hindi data/hindi_embeddings.txt --dict data/bilingual_dictionary.txt --output data/aligned_hindi_embeddings.txt --device cuda
+(needed to be run only once, ran it already)
+
+
+
+python evaluation.py --aligned_hindi data/aligned_hindi_embeddings.pt --english data/english_embeddings.txt --dict data/bilingual_dictionary.txt --k_list 1,5,10 --device cuda

@@ -1,0 +1,11 @@
+[
+    {
+        "Normalization":"neural",
+        "Dimensions":50,
+        "SimLex-Correlation":0.8956741048,
+        "WordSim-Correlation":0.8631210774,
+        "Analogy-Accuracy":0.3333333333,
+        "Analogy-Total":3,
+        "Clustering-Silhouette":0.0227427073
+    }
+]

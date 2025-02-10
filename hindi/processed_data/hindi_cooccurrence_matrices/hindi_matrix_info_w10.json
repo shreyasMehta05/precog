@@ -1,0 +1,13 @@
+{
+  "window_size": 10,
+  "shape": [
+    30791,
+    30791
+  ],
+  "nonzero": 8743068,
+  "normalized": true,
+  "distance_weighted": true,
+  "vocabulary_size": 30791,
+  "min_frequency": 3,
+  "language": "hindi"
+}

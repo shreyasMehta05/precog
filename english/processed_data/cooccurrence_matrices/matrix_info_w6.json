@@ -1,0 +1,10 @@
+{
+  "window_size": 6,
+  "shape": [
+    23496,
+    23496
+  ],
+  "nonzero": 5284123,
+  "normalized": true,
+  "vocabulary_size": 23496
+}

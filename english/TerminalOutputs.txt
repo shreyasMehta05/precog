@@ -1,0 +1,902 @@
+Running scripts/tokenizer.py
+================================================================================
+Standard Output:
+Successfully processed corpus
+Statistics: {'total_sentences': 253288, 'total_tokens': 1454208, 'avg_tokens_per_sentence': 5.741322131328764}
+
+Standard Error:
+2025-02-08 20:40:22,964 - GPUTokenizer - INFO - GPU acceleration enabled for spaCy
+2025-02-08 20:40:24,145 - GPUTokenizer - INFO - Loaded spaCy model: en_core_web_sm
+2025-02-08 20:40:24,146 - GPUTokenizer - INFO - Starting corpus processing
+2025-02-08 20:40:24,147 - GPUTokenizer - INFO - Loading corpus from ./dataset/raw/eng_300k/eng_news_2024_300k-sentences.txt
+2025-02-08 20:40:24,975 - GPUTokenizer - INFO - Cleaning text on GPU
+
+Tokenizing batches:   0%|          | 0/253288 [00:00<?, ?it/s]
+Tokenizing batches:   0%|          | 1/253288 [00:03<217:28:54,  3.09s/it]
+Tokenizing batches:   0%|          | 1001/253288 [00:03<12:43, 330.57it/s]
+Tokenizing batches:   1%|          | 2001/253288 [00:04<07:47, 537.41it/s]
+Tokenizing batches:   1%|          | 3001/253288 [00:05<05:59, 695.81it/s]
+Tokenizing batches:   2%|▏         | 4001/253288 [00:06<05:15, 790.06it/s]
+Tokenizing batches:   2%|▏         | 5001/253288 [00:07<04:41, 882.89it/s]
+Tokenizing batches:   2%|▏         | 6001/253288 [00:09<04:52, 846.61it/s]
+Tokenizing batches:   3%|▎         | 7001/253288 [00:10<04:50, 848.30it/s]
+Tokenizing batches:   3%|▎         | 8001/253288 [00:11<04:39, 876.21it/s]
+Tokenizing batches:   4%|▎         | 9001/253288 [00:12<04:37, 879.78it/s]
+Tokenizing batches:   4%|▍         | 10001/253288 [00:13<04:47, 846.16it/s]
+Tokenizing batches:   4%|▍         | 11001/253288 [00:14<04:46, 844.83it/s]
+Tokenizing batches:   5%|▍         | 12001/253288 [00:16<04:39, 862.42it/s]
+Tokenizing batches:   5%|▌         | 13001/253288 [00:17<04:46, 837.28it/s]
+Tokenizing batches:   6%|▌         | 14001/253288 [00:18<04:42, 848.18it/s]
+Tokenizing batches:   6%|▌         | 15001/253288 [00:19<04:54, 807.92it/s]
+Tokenizing batches:   6%|▋         | 16001/253288 [00:20<04:42, 838.76it/s]
+Tokenizing batches:   7%|▋         | 17001/253288 [00:22<04:50, 814.01it/s]
+Tokenizing batches:   7%|▋         | 18001/253288 [00:23<04:51, 807.55it/s]
+Tokenizing batches:   8%|▊         | 19001/253288 [00:24<04:39, 837.21it/s]
+Tokenizing batches:   8%|▊         | 20001/253288 [00:25<04:42, 825.32it/s]
+Tokenizing batches:   8%|▊         | 21001/253288 [00:26<04:25, 874.23it/s]
+Tokenizing batches:   9%|▊         | 22001/253288 [00:27<04:20, 888.87it/s]
+Tokenizing batches:   9%|▉         | 23001/253288 [00:28<04:09, 923.05it/s]
+Tokenizing batches:   9%|▉         | 24001/253288 [00:30<04:13, 906.21it/s]
+Tokenizing batches:  10%|▉         | 25001/253288 [00:31<04:06, 927.81it/s]
+Tokenizing batches:  10%|█         | 26001/253288 [00:32<04:15, 891.29it/s]
+Tokenizing batches:  11%|█         | 27001/253288 [00:33<04:27, 846.83it/s]
+Tokenizing batches:  11%|█         | 28001/253288 [00:34<04:20, 865.45it/s]
+Tokenizing batches:  11%|█▏        | 29001/253288 [00:35<04:17, 872.06it/s]
+Tokenizing batches:  12%|█▏        | 30001/253288 [00:37<04:29, 828.46it/s]
+Tokenizing batches:  12%|█▏        | 31001/253288 [00:38<04:25, 837.42it/s]
+Tokenizing batches:  13%|█▎        | 32001/253288 [00:39<04:17, 858.96it/s]
+Tokenizing batches:  13%|█▎        | 33001/253288 [00:40<04:13, 869.35it/s]
+Tokenizing batches:  13%|█▎        | 34001/253288 [00:41<04:12, 869.28it/s]
+Tokenizing batches:  14%|█▍        | 35001/253288 [00:42<04:05, 888.19it/s]
+Tokenizing batches:  14%|█▍        | 36001/253288 [00:43<04:00, 903.62it/s]
+Tokenizing batches:  15%|█▍        | 37001/253288 [00:44<03:59, 903.48it/s]
+Tokenizing batches:  15%|█▌        | 38001/253288 [00:45<03:54, 919.22it/s]
+Tokenizing batches:  15%|█▌        | 39001/253288 [00:47<03:51, 927.23it/s]
+Tokenizing batches:  16%|█▌        | 40001/253288 [00:48<03:46, 943.02it/s]
+Tokenizing batches:  16%|█▌        | 41001/253288 [00:49<03:54, 907.01it/s]
+Tokenizing batches:  17%|█▋        | 42001/253288 [00:50<03:47, 927.08it/s]
+Tokenizing batches:  17%|█▋        | 43001/253288 [00:51<03:52, 902.93it/s]
+Tokenizing batches:  17%|█▋        | 44001/253288 [00:52<03:48, 915.78it/s]
+Tokenizing batches:  18%|█▊        | 45001/253288 [00:53<03:55, 883.99it/s]
+Tokenizing batches:  18%|█▊        | 46001/253288 [00:55<04:08, 834.86it/s]
+Tokenizing batches:  19%|█▊        | 47001/253288 [00:56<04:05, 840.04it/s]
+Tokenizing batches:  19%|█▉        | 48001/253288 [00:57<03:53, 878.65it/s]
+Tokenizing batches:  19%|█▉        | 49001/253288 [00:58<03:57, 861.92it/s]
+Tokenizing batches:  20%|█▉        | 50001/253288 [00:59<03:44, 904.76it/s]
+Tokenizing batches:  20%|██        | 51001/253288 [01:00<03:39, 921.53it/s]
+Tokenizing batches:  21%|██        | 52001/253288 [01:01<03:29, 962.98it/s]
+Tokenizing batches:  21%|██        | 53001/253288 [01:02<03:31, 946.96it/s]
+Tokenizing batches:  21%|██▏       | 54001/253288 [01:03<03:26, 964.24it/s]
+Tokenizing batches:  22%|██▏       | 55001/253288 [01:04<03:21, 982.46it/s]
+Tokenizing batches:  22%|██▏       | 56001/253288 [01:05<03:32, 926.28it/s]
+Tokenizing batches:  23%|██▎       | 57001/253288 [01:06<03:31, 926.85it/s]
+Tokenizing batches:  23%|██▎       | 58001/253288 [01:07<03:17, 986.69it/s]
+Tokenizing batches:  23%|██▎       | 59001/253288 [01:08<03:07, 1037.61it/s]
+Tokenizing batches:  24%|██▎       | 60001/253288 [01:09<03:10, 1015.67it/s]
+Tokenizing batches:  24%|██▍       | 61001/253288 [01:10<02:57, 1083.28it/s]
+Tokenizing batches:  24%|██▍       | 62001/253288 [01:11<02:56, 1082.53it/s]
+Tokenizing batches:  25%|██▍       | 63001/253288 [01:12<02:55, 1085.96it/s]
+Tokenizing batches:  25%|██▌       | 64001/253288 [01:13<02:57, 1066.73it/s]
+Tokenizing batches:  26%|██▌       | 65001/253288 [01:14<02:58, 1057.52it/s]
+Tokenizing batches:  26%|██▌       | 66001/253288 [01:15<03:08, 993.58it/s] 
+Tokenizing batches:  26%|██▋       | 67001/253288 [01:16<03:09, 982.11it/s]
+Tokenizing batches:  27%|██▋       | 68001/253288 [01:17<03:19, 926.89it/s]
+Tokenizing batches:  27%|██▋       | 69001/253288 [01:18<03:18, 929.50it/s]
+Tokenizing batches:  28%|██▊       | 70001/253288 [01:19<03:26, 888.93it/s]
+Tokenizing batches:  28%|██▊       | 71001/253288 [01:20<03:19, 913.82it/s]
+Tokenizing batches:  28%|██▊       | 72001/253288 [01:21<03:20, 905.92it/s]
+Tokenizing batches:  29%|██▉       | 73001/253288 [01:23<03:16, 917.90it/s]
+Tokenizing batches:  29%|██▉       | 74001/253288 [01:24<03:10, 941.97it/s]
+Tokenizing batches:  30%|██▉       | 75001/253288 [01:25<03:07, 951.60it/s]
+Tokenizing batches:  30%|███       | 76001/253288 [01:26<03:20, 886.08it/s]
+Tokenizing batches:  30%|███       | 77001/253288 [01:27<03:11, 919.11it/s]
+Tokenizing batches:  31%|███       | 78001/253288 [01:28<03:07, 936.98it/s]
+Tokenizing batches:  31%|███       | 79001/253288 [01:29<03:03, 951.63it/s]
+Tokenizing batches:  32%|███▏      | 80001/253288 [01:30<03:01, 955.95it/s]
+Tokenizing batches:  32%|███▏      | 81001/253288 [01:31<02:50, 1011.69it/s]
+Tokenizing batches:  32%|███▏      | 82001/253288 [01:32<02:40, 1070.35it/s]
+Tokenizing batches:  33%|███▎      | 83001/253288 [01:32<02:27, 1157.89it/s]
+Tokenizing batches:  33%|███▎      | 84001/253288 [01:33<02:38, 1069.13it/s]
+Tokenizing batches:  34%|███▎      | 85001/253288 [01:35<02:46, 1008.78it/s]
+Tokenizing batches:  34%|███▍      | 86001/253288 [01:36<02:58, 939.51it/s] 
+Tokenizing batches:  34%|███▍      | 87001/253288 [01:37<03:01, 916.60it/s]
+Tokenizing batches:  35%|███▍      | 88001/253288 [01:38<02:56, 935.64it/s]
+Tokenizing batches:  35%|███▌      | 89001/253288 [01:39<02:54, 939.88it/s]
+Tokenizing batches:  36%|███▌      | 90001/253288 [01:40<02:58, 916.59it/s]
+Tokenizing batches:  36%|███▌      | 91001/253288 [01:41<02:58, 908.02it/s]
+Tokenizing batches:  36%|███▋      | 92001/253288 [01:42<02:45, 973.73it/s]
+Tokenizing batches:  37%|███▋      | 93001/253288 [01:43<02:28, 1077.97it/s]
+Tokenizing batches:  37%|███▋      | 94001/253288 [01:44<02:30, 1060.83it/s]
+Tokenizing batches:  38%|███▊      | 95001/253288 [01:45<02:28, 1062.82it/s]
+Tokenizing batches:  38%|███▊      | 96001/253288 [01:46<02:30, 1046.27it/s]
+Tokenizing batches:  38%|███▊      | 97001/253288 [01:47<02:27, 1062.76it/s]
+Tokenizing batches:  39%|███▊      | 98001/253288 [01:47<02:23, 1083.88it/s]
+Tokenizing batches:  39%|███▉      | 99001/253288 [01:48<02:21, 1090.24it/s]
+Tokenizing batches:  39%|███▉      | 100001/253288 [01:49<02:13, 1147.93it/s]
+Tokenizing batches:  40%|███▉      | 101001/253288 [01:50<02:19, 1089.87it/s]
+Tokenizing batches:  40%|████      | 102001/253288 [01:51<02:33, 988.36it/s] 
+Tokenizing batches:  41%|████      | 103001/253288 [01:53<02:36, 962.00it/s]
+Tokenizing batches:  41%|████      | 104001/253288 [01:54<02:37, 945.28it/s]
+Tokenizing batches:  41%|████▏     | 105001/253288 [01:55<02:41, 920.84it/s]
+Tokenizing batches:  42%|████▏     | 106001/253288 [01:56<02:39, 924.30it/s]
+Tokenizing batches:  42%|████▏     | 107001/253288 [01:57<02:39, 915.68it/s]
+Tokenizing batches:  43%|████▎     | 108001/253288 [01:58<02:32, 951.51it/s]
+Tokenizing batches:  43%|████▎     | 109001/253288 [01:59<02:32, 946.07it/s]
+Tokenizing batches:  43%|████▎     | 110001/253288 [02:00<02:27, 972.16it/s]
+Tokenizing batches:  44%|████▍     | 111001/253288 [02:01<02:33, 929.31it/s]
+Tokenizing batches:  44%|████▍     | 112001/253288 [02:02<02:40, 881.15it/s]
+Tokenizing batches:  45%|████▍     | 113001/253288 [02:03<02:01, 1155.16it/s]
+Tokenizing batches:  45%|████▌     | 114001/253288 [02:04<02:08, 1080.61it/s]
+Tokenizing batches:  45%|████▌     | 115001/253288 [02:05<02:11, 1048.95it/s]
+Tokenizing batches:  46%|████▌     | 116001/253288 [02:06<02:15, 1014.28it/s]
+Tokenizing batches:  46%|████▌     | 117001/253288 [02:07<02:14, 1012.36it/s]
+Tokenizing batches:  47%|████▋     | 118001/253288 [02:08<02:13, 1011.70it/s]
+Tokenizing batches:  47%|████▋     | 119001/253288 [02:09<02:14, 1000.19it/s]
+Tokenizing batches:  47%|████▋     | 120001/253288 [02:10<02:17, 972.77it/s] 
+Tokenizing batches:  48%|████▊     | 121001/253288 [02:11<02:13, 993.58it/s]
+Tokenizing batches:  48%|████▊     | 122001/253288 [02:12<02:19, 944.20it/s]
+Tokenizing batches:  49%|████▊     | 123001/253288 [02:13<02:16, 955.81it/s]
+Tokenizing batches:  49%|████▉     | 124001/253288 [02:14<02:17, 938.64it/s]
+Tokenizing batches:  49%|████▉     | 125001/253288 [02:15<02:19, 916.85it/s]
+Tokenizing batches:  50%|████▉     | 126001/253288 [02:16<02:14, 947.49it/s]
+Tokenizing batches:  50%|█████     | 127001/253288 [02:17<02:12, 955.48it/s]
+Tokenizing batches:  51%|█████     | 128001/253288 [02:18<02:12, 947.21it/s]
+Tokenizing batches:  51%|█████     | 129001/253288 [02:20<02:17, 905.34it/s]
+Tokenizing batches:  51%|█████▏    | 130001/253288 [02:21<02:17, 894.15it/s]
+Tokenizing batches:  52%|█████▏    | 131001/253288 [02:22<02:18, 886.01it/s]
+Tokenizing batches:  52%|█████▏    | 132001/253288 [02:23<02:21, 856.63it/s]
+Tokenizing batches:  53%|█████▎    | 133001/253288 [02:24<02:18, 871.18it/s]
+Tokenizing batches:  53%|█████▎    | 134001/253288 [02:25<02:19, 852.80it/s]
+Tokenizing batches:  53%|█████▎    | 135001/253288 [02:27<02:19, 849.42it/s]
+Tokenizing batches:  54%|█████▎    | 136001/253288 [02:28<02:17, 851.94it/s]
+Tokenizing batches:  54%|█████▍    | 137001/253288 [02:29<02:11, 887.34it/s]
+Tokenizing batches:  54%|█████▍    | 138001/253288 [02:30<02:04, 926.54it/s]
+Tokenizing batches:  55%|█████▍    | 139001/253288 [02:31<01:58, 965.11it/s]
+Tokenizing batches:  55%|█████▌    | 140001/253288 [02:32<02:00, 937.79it/s]
+Tokenizing batches:  56%|█████▌    | 141001/253288 [02:33<02:01, 924.69it/s]
+Tokenizing batches:  56%|█████▌    | 142001/253288 [02:34<01:53, 981.57it/s]
+Tokenizing batches:  56%|█████▋    | 143001/253288 [02:35<01:49, 1010.15it/s]
+Tokenizing batches:  57%|█████▋    | 144001/253288 [02:36<01:53, 964.14it/s] 
+Tokenizing batches:  57%|█████▋    | 145001/253288 [02:37<01:50, 982.71it/s]
+Tokenizing batches:  58%|█████▊    | 146001/253288 [02:38<01:52, 953.67it/s]
+Tokenizing batches:  58%|█████▊    | 147001/253288 [02:39<01:54, 924.85it/s]
+Tokenizing batches:  58%|█████▊    | 148001/253288 [02:40<01:58, 890.31it/s]
+Tokenizing batches:  59%|█████▉    | 149001/253288 [02:41<01:54, 914.43it/s]
+Tokenizing batches:  59%|█████▉    | 150001/253288 [02:43<01:56, 884.31it/s]
+Tokenizing batches:  60%|█████▉    | 151001/253288 [02:44<02:06, 805.73it/s]
+Tokenizing batches:  60%|██████    | 152001/253288 [02:45<02:02, 824.21it/s]
+Tokenizing batches:  60%|██████    | 153001/253288 [02:46<02:00, 834.34it/s]
+Tokenizing batches:  61%|██████    | 154001/253288 [02:47<01:53, 875.59it/s]
+Tokenizing batches:  61%|██████    | 155001/253288 [02:49<01:53, 869.36it/s]
+Tokenizing batches:  62%|██████▏   | 156001/253288 [02:50<01:51, 871.06it/s]
+Tokenizing batches:  62%|██████▏   | 157001/253288 [02:51<01:50, 873.84it/s]
+Tokenizing batches:  62%|██████▏   | 158001/253288 [02:52<01:49, 868.55it/s]
+Tokenizing batches:  63%|██████▎   | 159001/253288 [02:53<01:44, 904.32it/s]
+Tokenizing batches:  63%|██████▎   | 160001/253288 [02:54<01:44, 890.88it/s]
+Tokenizing batches:  64%|██████▎   | 161001/253288 [02:55<01:42, 900.28it/s]
+Tokenizing batches:  64%|██████▍   | 162001/253288 [02:56<01:41, 897.17it/s]
+Tokenizing batches:  64%|██████▍   | 163001/253288 [02:58<01:40, 894.51it/s]
+Tokenizing batches:  65%|██████▍   | 164001/253288 [02:59<01:37, 919.94it/s]
+Tokenizing batches:  65%|██████▌   | 165001/253288 [03:00<01:33, 942.54it/s]
+Tokenizing batches:  66%|██████▌   | 166001/253288 [03:01<01:32, 946.72it/s]
+Tokenizing batches:  66%|██████▌   | 167001/253288 [03:02<01:31, 942.08it/s]
+Tokenizing batches:  66%|██████▋   | 168001/253288 [03:03<01:29, 949.68it/s]
+Tokenizing batches:  67%|██████▋   | 169001/253288 [03:04<01:27, 967.96it/s]
+Tokenizing batches:  67%|██████▋   | 170001/253288 [03:05<01:32, 904.52it/s]
+Tokenizing batches:  68%|██████▊   | 171001/253288 [03:06<01:28, 925.87it/s]
+Tokenizing batches:  68%|██████▊   | 172001/253288 [03:07<01:30, 899.28it/s]
+Tokenizing batches:  68%|██████▊   | 173001/253288 [03:09<01:32, 863.49it/s]
+Tokenizing batches:  69%|██████▊   | 174001/253288 [03:10<01:28, 892.96it/s]
+Tokenizing batches:  69%|██████▉   | 175001/253288 [03:11<01:25, 917.46it/s]
+Tokenizing batches:  69%|██████▉   | 176001/253288 [03:12<01:24, 909.62it/s]
+Tokenizing batches:  70%|██████▉   | 177001/253288 [03:13<01:25, 887.39it/s]
+Tokenizing batches:  70%|███████   | 178001/253288 [03:14<01:23, 896.88it/s]
+Tokenizing batches:  71%|███████   | 179001/253288 [03:15<01:21, 907.53it/s]
+Tokenizing batches:  71%|███████   | 180001/253288 [03:16<01:22, 883.58it/s]
+Tokenizing batches:  71%|███████▏  | 181001/253288 [03:17<01:19, 908.43it/s]
+Tokenizing batches:  72%|███████▏  | 182001/253288 [03:18<01:20, 890.41it/s]
+Tokenizing batches:  72%|███████▏  | 183001/253288 [03:20<01:18, 890.56it/s]
+Tokenizing batches:  73%|███████▎  | 184001/253288 [03:21<01:16, 905.42it/s]
+Tokenizing batches:  73%|███████▎  | 185001/253288 [03:22<01:18, 869.73it/s]
+Tokenizing batches:  73%|███████▎  | 186001/253288 [03:23<01:18, 854.82it/s]
+Tokenizing batches:  74%|███████▍  | 187001/253288 [03:24<01:15, 874.18it/s]
+Tokenizing batches:  74%|███████▍  | 188001/253288 [03:25<01:14, 880.59it/s]
+Tokenizing batches:  75%|███████▍  | 189001/253288 [03:26<01:12, 887.96it/s]
+Tokenizing batches:  75%|███████▌  | 190001/253288 [03:28<01:16, 832.50it/s]
+Tokenizing batches:  75%|███████▌  | 191001/253288 [03:29<01:13, 845.12it/s]
+Tokenizing batches:  76%|███████▌  | 192001/253288 [03:30<01:12, 848.54it/s]
+Tokenizing batches:  76%|███████▌  | 193001/253288 [03:31<01:12, 835.18it/s]
+Tokenizing batches:  77%|███████▋  | 194001/253288 [03:33<01:10, 837.53it/s]
+Tokenizing batches:  77%|███████▋  | 195001/253288 [03:34<01:09, 844.27it/s]
+Tokenizing batches:  77%|███████▋  | 196001/253288 [03:35<01:07, 847.94it/s]
+Tokenizing batches:  78%|███████▊  | 197001/253288 [03:36<01:14, 756.63it/s]
+Tokenizing batches:  78%|███████▊  | 198001/253288 [03:38<01:09, 792.14it/s]
+Tokenizing batches:  79%|███████▊  | 199001/253288 [03:39<01:06, 812.62it/s]
+Tokenizing batches:  79%|███████▉  | 200001/253288 [03:39<00:49, 1085.22it/s]
+Tokenizing batches:  79%|███████▉  | 201001/253288 [03:40<00:51, 1019.31it/s]
+Tokenizing batches:  80%|███████▉  | 202001/253288 [03:41<00:52, 976.50it/s] 
+Tokenizing batches:  80%|████████  | 203001/253288 [03:42<00:53, 937.55it/s]
+Tokenizing batches:  81%|████████  | 204001/253288 [03:44<00:53, 920.14it/s]
+Tokenizing batches:  81%|████████  | 205001/253288 [03:45<00:52, 923.78it/s]
+Tokenizing batches:  81%|████████▏ | 206001/253288 [03:46<00:50, 944.76it/s]
+Tokenizing batches:  82%|████████▏ | 207001/253288 [03:47<00:50, 919.25it/s]
+Tokenizing batches:  82%|████████▏ | 208001/253288 [03:48<00:48, 926.60it/s]
+Tokenizing batches:  83%|████████▎ | 209001/253288 [03:49<00:46, 944.77it/s]
+Tokenizing batches:  83%|████████▎ | 210001/253288 [03:50<00:48, 897.16it/s]
+Tokenizing batches:  83%|████████▎ | 211001/253288 [03:51<00:45, 930.68it/s]
+Tokenizing batches:  84%|████████▎ | 212001/253288 [03:52<00:45, 907.74it/s]
+Tokenizing batches:  84%|████████▍ | 213001/253288 [03:53<00:45, 885.06it/s]
+Tokenizing batches:  84%|████████▍ | 214001/253288 [03:54<00:43, 894.87it/s]
+Tokenizing batches:  85%|████████▍ | 215001/253288 [03:56<00:42, 901.24it/s]
+Tokenizing batches:  85%|████████▌ | 216001/253288 [03:57<00:40, 919.47it/s]
+Tokenizing batches:  86%|████████▌ | 217001/253288 [03:58<00:39, 918.10it/s]
+Tokenizing batches:  86%|████████▌ | 218001/253288 [03:59<00:39, 885.14it/s]
+Tokenizing batches:  86%|████████▋ | 219001/253288 [04:00<00:37, 907.73it/s]
+Tokenizing batches:  87%|████████▋ | 220001/253288 [04:01<00:36, 905.82it/s]
+Tokenizing batches:  87%|████████▋ | 221001/253288 [04:02<00:35, 906.01it/s]
+Tokenizing batches:  88%|████████▊ | 222001/253288 [04:03<00:35, 889.67it/s]
+Tokenizing batches:  88%|████████▊ | 223001/253288 [04:05<00:38, 789.94it/s]
+Tokenizing batches:  88%|████████▊ | 224001/253288 [04:06<00:34, 841.44it/s]
+Tokenizing batches:  89%|████████▉ | 225001/253288 [04:07<00:32, 872.43it/s]
+Tokenizing batches:  89%|████████▉ | 226001/253288 [04:08<00:30, 892.02it/s]
+Tokenizing batches:  90%|████████▉ | 227001/253288 [04:09<00:28, 915.33it/s]
+Tokenizing batches:  90%|█████████ | 228001/253288 [04:10<00:26, 953.99it/s]
+Tokenizing batches:  90%|█████████ | 229001/253288 [04:11<00:25, 950.88it/s]
+Tokenizing batches:  91%|█████████ | 231001/253288 [04:12<00:18, 1226.11it/s]
+Tokenizing batches:  92%|█████████▏| 232001/253288 [04:13<00:19, 1111.04it/s]
+Tokenizing batches:  92%|█████████▏| 233001/253288 [04:14<00:19, 1052.28it/s]
+Tokenizing batches:  92%|█████████▏| 234001/253288 [04:15<00:18, 1017.40it/s]
+Tokenizing batches:  93%|█████████▎| 235001/253288 [04:17<00:19, 936.23it/s] 
+Tokenizing batches:  93%|█████████▎| 236001/253288 [04:18<00:18, 941.76it/s]
+Tokenizing batches:  94%|█████████▎| 237001/253288 [04:19<00:17, 910.12it/s]
+Tokenizing batches:  94%|█████████▍| 238001/253288 [04:20<00:17, 895.03it/s]
+Tokenizing batches:  94%|█████████▍| 239001/253288 [04:21<00:16, 885.30it/s]
+Tokenizing batches:  95%|█████████▍| 240001/253288 [04:23<00:15, 873.90it/s]
+Tokenizing batches:  95%|█████████▌| 241001/253288 [04:23<00:13, 931.52it/s]
+Tokenizing batches:  96%|█████████▌| 242001/253288 [04:24<00:11, 956.35it/s]
+Tokenizing batches:  96%|█████████▌| 243001/253288 [04:25<00:10, 974.92it/s]
+Tokenizing batches:  96%|█████████▋| 244001/253288 [04:26<00:09, 991.72it/s]
+Tokenizing batches:  97%|█████████▋| 245001/253288 [04:27<00:08, 977.14it/s]
+Tokenizing batches:  97%|█████████▋| 246001/253288 [04:29<00:07, 949.41it/s]
+Tokenizing batches:  98%|█████████▊| 247001/253288 [04:30<00:06, 934.40it/s]
+Tokenizing batches:  98%|█████████▊| 248001/253288 [04:31<00:05, 985.20it/s]
+Tokenizing batches:  98%|█████████▊| 249001/253288 [04:32<00:04, 950.45it/s]
+Tokenizing batches:  99%|█████████▊| 250001/253288 [04:33<00:03, 964.25it/s]
+Tokenizing batches:  99%|█████████▉| 251001/253288 [04:34<00:02, 914.53it/s]
+Tokenizing batches:  99%|█████████▉| 252001/253288 [04:35<00:01, 921.24it/s]
+Tokenizing batches: 100%|█████████▉| 253001/253288 [04:35<00:00, 1168.84it/s]
+Tokenizing batches: 100%|██████████| 253288/253288 [04:35<00:00, 918.43it/s] 
+2025-02-08 20:45:03,879 - GPUTokenizer - INFO - Processing complete in 282.58 seconds
+2025-02-08 20:45:03,879 - GPUTokenizer - INFO - Tokenized corpus saved to processed_data/tokenized_corpus.pkl
+2025-02-08 20:45:03,881 - GPUTokenizer - INFO - Statistics: {'total_sentences': 253288, 'total_tokens': 1454208, 'avg_tokens_per_sentence': 5.741322131328764}
+
+================================================================================
+
+Running scripts/cooccurrence_builder.py
+================================================================================
+Standard Output:
+Successfully built co-occurrence matrices
+
+Standard Error:
+2025-02-08 20:45:13,138 - CooccurrenceBuilder - INFO - GPU Memory: 3.23GB free / 4.00GB total
+2025-02-08 20:45:13,141 - CooccurrenceBuilder - INFO - Loading tokenized corpus from ./processed_data/tokenized_corpus.pkl
+2025-02-08 20:45:13,382 - CooccurrenceBuilder - INFO - Counting word frequencies...
+
+Building vocabulary:   0%|          | 0/253288 [00:00<?, ?it/s]
+Building vocabulary:  52%|█████▏    | 132634/253288 [00:00<00:00, 1326265.38it/s]
+Building vocabulary: 100%|██████████| 253288/253288 [00:00<00:00, 1172107.81it/s]
+2025-02-08 20:45:13,675 - CooccurrenceBuilder - INFO - Vocabulary size: 23496
+2025-02-08 20:45:13,704 - CooccurrenceBuilder - INFO - Processing window size 2
+2025-02-08 20:45:13,705 - CooccurrenceBuilder - INFO - Building co-occurrence matrix with window size 2...
+
+Processing sentences:   0%|          | 0/253288 [00:00<?, ?it/s]
+Processing sentences:   9%|▉         | 22856/253288 [00:00<00:01, 228545.51it/s]
+Processing sentences:  18%|█▊        | 45711/253288 [00:00<00:00, 208808.87it/s]
+Processing sentences:  26%|██▋       | 67102/253288 [00:00<00:00, 211016.98it/s]
+Processing sentences:  35%|███▍      | 88277/253288 [00:00<00:00, 209698.95it/s]
+Processing sentences:  43%|████▎     | 109289/253288 [00:00<00:00, 198001.72it/s]
+Processing sentences:  51%|█████     | 129200/253288 [00:00<00:00, 196086.77it/s]
+Processing sentences:  59%|█████▉    | 148876/253288 [00:00<00:00, 183697.55it/s]
+Processing sentences:  67%|██████▋   | 168919/253288 [00:00<00:00, 188625.10it/s]
+Processing sentences:  74%|███████▍  | 187922/253288 [00:00<00:00, 187160.39it/s]
+Processing sentences:  82%|████████▏ | 206730/253288 [00:01<00:00, 154052.24it/s]
+Processing sentences:  88%|████████▊ | 223103/253288 [00:01<00:00, 156541.80it/s]
+Processing sentences:  96%|█████████▌| 243634/253288 [00:01<00:00, 169650.28it/s]
+Processing sentences: 100%|██████████| 253288/253288 [00:01<00:00, 184337.53it/s]
+2025-02-08 20:45:17,380 - CooccurrenceBuilder - INFO - Matrix shape: (23496, 23496), Non-zero elements: 2786295
+2025-02-08 20:45:18,676 - CooccurrenceBuilder - INFO - Processing window size 4
+2025-02-08 20:45:18,676 - CooccurrenceBuilder - INFO - Building co-occurrence matrix with window size 4...
+
+Processing sentences:   0%|          | 0/253288 [00:00<?, ?it/s]
+Processing sentences:   7%|▋         | 18597/253288 [00:00<00:01, 185957.76it/s]
+Processing sentences:  15%|█▍        | 37193/253288 [00:00<00:01, 177448.96it/s]
+Processing sentences:  22%|██▏       | 54965/253288 [00:00<00:01, 163988.98it/s]
+Processing sentences:  29%|██▊       | 72359/253288 [00:00<00:01, 167666.78it/s]
+Processing sentences:  36%|███▌      | 90839/253288 [00:00<00:00, 173588.56it/s]
+Processing sentences:  45%|████▍     | 113610/253288 [00:00<00:00, 191474.92it/s]
+Processing sentences:  52%|█████▏    | 132861/253288 [00:00<00:00, 176755.93it/s]
+Processing sentences:  60%|█████▉    | 151256/253288 [00:00<00:00, 178884.30it/s]
+Processing sentences:  67%|██████▋   | 169334/253288 [00:00<00:00, 172979.46it/s]
+Processing sentences:  74%|███████▎  | 186782/253288 [00:01<00:00, 166415.26it/s]
+Processing sentences:  80%|████████  | 203549/253288 [00:01<00:00, 150489.57it/s]
+Processing sentences:  87%|████████▋ | 219760/253288 [00:01<00:00, 153606.66it/s]
+Processing sentences:  94%|█████████▍| 237598/253288 [00:01<00:00, 160474.03it/s]
+Processing sentences: 100%|██████████| 253288/253288 [00:01<00:00, 169901.71it/s]
+2025-02-08 20:45:21,103 - CooccurrenceBuilder - INFO - Matrix shape: (23496, 23496), Non-zero elements: 4400894
+2025-02-08 20:45:23,125 - CooccurrenceBuilder - INFO - Processing window size 6
+2025-02-08 20:45:23,125 - CooccurrenceBuilder - INFO - Building co-occurrence matrix with window size 6...
+
+Processing sentences:   0%|          | 0/253288 [00:00<?, ?it/s]
+Processing sentences:   6%|▋         | 16428/253288 [00:00<00:01, 164270.37it/s]
+Processing sentences:  13%|█▎        | 32856/253288 [00:00<00:01, 138041.34it/s]
+Processing sentences:  19%|█▉        | 47504/253288 [00:00<00:01, 141524.44it/s]
+Processing sentences:  24%|██▍       | 61836/253288 [00:00<00:01, 141704.71it/s]
+Processing sentences:  30%|███       | 77104/253288 [00:00<00:01, 145491.95it/s]
+Processing sentences:  36%|███▌      | 91740/253288 [00:00<00:01, 143480.38it/s]
+Processing sentences:  43%|████▎     | 109161/253288 [00:00<00:00, 153231.33it/s]
+Processing sentences:  49%|████▉     | 124552/253288 [00:00<00:00, 138596.60it/s]
+Processing sentences:  55%|█████▍    | 138691/253288 [00:01<00:00, 121463.64it/s]
+Processing sentences:  60%|█████▉    | 151329/253288 [00:01<00:00, 116731.11it/s]
+Processing sentences:  64%|██████▍   | 163327/253288 [00:01<00:00, 108865.93it/s]
+Processing sentences:  70%|██████▉   | 176163/253288 [00:01<00:00, 113900.67it/s]
+Processing sentences:  74%|███████▍  | 187820/253288 [00:01<00:00, 109723.40it/s]
+Processing sentences:  79%|███████▊  | 198976/253288 [00:01<00:00, 104729.17it/s]
+Processing sentences:  83%|████████▎ | 209583/253288 [00:01<00:00, 103035.36it/s]
+Processing sentences:  87%|████████▋ | 220140/253288 [00:01<00:00, 103725.47it/s]
+Processing sentences:  91%|█████████ | 230577/253288 [00:01<00:00, 103158.14it/s]
+Processing sentences:  96%|█████████▌| 243270/253288 [00:02<00:00, 109920.64it/s]
+Processing sentences: 100%|██████████| 253288/253288 [00:02<00:00, 122261.21it/s]
+2025-02-08 20:45:26,609 - CooccurrenceBuilder - INFO - Matrix shape: (23496, 23496), Non-zero elements: 5284123
+2025-02-08 20:45:28,952 - CooccurrenceBuilder - INFO - Processing window size 8
+2025-02-08 20:45:28,952 - CooccurrenceBuilder - INFO - Building co-occurrence matrix with window size 8...
+
+Processing sentences:   0%|          | 0/253288 [00:00<?, ?it/s]
+Processing sentences:   5%|▌         | 13546/253288 [00:00<00:01, 135457.22it/s]
+Processing sentences:  11%|█         | 27092/253288 [00:00<00:01, 117580.11it/s]
+Processing sentences:  16%|█▌        | 40300/253288 [00:00<00:01, 123689.94it/s]
+Processing sentences:  21%|██        | 53660/253288 [00:00<00:01, 127414.44it/s]
+Processing sentences:  27%|██▋       | 68692/253288 [00:00<00:01, 135412.50it/s]
+Processing sentences:  33%|███▎      | 82323/253288 [00:00<00:01, 131676.74it/s]
+Processing sentences:  41%|████      | 103812/253288 [00:00<00:00, 157952.17it/s]
+Processing sentences:  47%|████▋     | 119749/253288 [00:00<00:00, 154308.61it/s]
+Processing sentences:  53%|█████▎    | 135288/253288 [00:00<00:00, 140734.22it/s]
+Processing sentences:  60%|█████▉    | 150849/253288 [00:01<00:00, 144925.18it/s]
+Processing sentences:  65%|██████▌   | 165567/253288 [00:01<00:00, 137313.54it/s]
+Processing sentences:  71%|███████   | 179505/253288 [00:01<00:00, 136737.23it/s]
+Processing sentences:  76%|███████▋  | 193319/253288 [00:01<00:00, 128296.25it/s]
+Processing sentences:  81%|████████▏ | 206314/253288 [00:01<00:00, 124675.88it/s]
+Processing sentences:  87%|████████▋ | 219196/253288 [00:01<00:00, 125814.32it/s]
+Processing sentences:  92%|█████████▏| 233092/253288 [00:01<00:00, 129523.32it/s]
+Processing sentences:  99%|█████████▊| 249508/253288 [00:01<00:00, 139475.48it/s]
+Processing sentences: 100%|██████████| 253288/253288 [00:01<00:00, 136247.21it/s]
+2025-02-08 20:45:32,281 - CooccurrenceBuilder - INFO - Matrix shape: (23496, 23496), Non-zero elements: 5749313
+2025-02-08 20:45:34,840 - CooccurrenceBuilder - INFO - Processing window size 10
+2025-02-08 20:45:34,840 - CooccurrenceBuilder - INFO - Building co-occurrence matrix with window size 10...
+
+Processing sentences:   0%|          | 0/253288 [00:00<?, ?it/s]
+Processing sentences:   6%|▋         | 15876/253288 [00:00<00:01, 156979.01it/s]
+Processing sentences:  12%|█▏        | 31574/253288 [00:00<00:01, 141025.48it/s]
+Processing sentences:  18%|█▊        | 45777/253288 [00:00<00:01, 112928.20it/s]
+Processing sentences:  23%|██▎       | 57699/253288 [00:00<00:01, 114989.69it/s]
+Processing sentences:  29%|██▊       | 72592/253288 [00:00<00:01, 125829.14it/s]
+Processing sentences:  34%|███▍      | 87182/253288 [00:00<00:01, 131775.19it/s]
+Processing sentences:  43%|████▎     | 109160/253288 [00:00<00:00, 158934.80it/s]
+Processing sentences:  50%|████▉     | 125407/253288 [00:00<00:00, 150914.73it/s]
+Processing sentences:  56%|█████▌    | 140803/253288 [00:01<00:00, 146083.65it/s]
+Processing sentences:  61%|██████▏   | 155630/253288 [00:01<00:00, 143359.68it/s]
+Processing sentences:  67%|██████▋   | 170426/253288 [00:01<00:00, 144671.42it/s]
+Processing sentences:  73%|███████▎  | 185004/253288 [00:01<00:00, 138722.96it/s]
+Processing sentences:  79%|███████▊  | 198984/253288 [00:01<00:00, 129731.86it/s]
+Processing sentences:  84%|████████▎ | 212110/253288 [00:01<00:00, 129760.63it/s]
+Processing sentences:  89%|████████▉ | 225193/253288 [00:01<00:00, 124294.53it/s]
+Processing sentences:  94%|█████████▍| 239304/253288 [00:01<00:00, 128955.94it/s]
+Processing sentences: 100%|██████████| 253288/253288 [00:01<00:00, 136733.32it/s]
+2025-02-08 20:45:38,238 - CooccurrenceBuilder - INFO - Matrix shape: (23496, 23496), Non-zero elements: 5981710
+2025-02-08 20:45:40,020 - CooccurrenceBuilder - INFO - All matrices processed in 27.70 seconds
+
+================================================================================
+
+Running scripts/matrix_reducer.py
+================================================================================
+Standard Output:
+Successfully processed all matrices
+
+Standard Error:
+GPU Memory: 3.23GB free / 4.00GB total
+
+Processing matrix with window size 10
+
+Applying ppmi normalization
+Applying ppmi normalization...
+
+Reducing to d=50 dimensions
+Performing SVD with d=50...
+SVD complete. Embedding shape: (23496, 50)
+
+Reducing to d=100 dimensions
+Performing SVD with d=100...
+SVD complete. Embedding shape: (23496, 100)
+
+Reducing to d=200 dimensions
+Performing SVD with d=200...
+SVD complete. Embedding shape: (23496, 200)
+
+Reducing to d=300 dimensions
+Performing SVD with d=300...
+SVD complete. Embedding shape: (23496, 300)
+
+Applying tfidf normalization
+Applying tfidf normalization...
+
+Reducing to d=50 dimensions
+Performing SVD with d=50...
+SVD complete. Embedding shape: (23496, 50)
+
+Reducing to d=100 dimensions
+Performing SVD with d=100...
+SVD complete. Embedding shape: (23496, 100)
+
+Reducing to d=200 dimensions
+Performing SVD with d=200...
+SVD complete. Embedding shape: (23496, 200)
+
+Reducing to d=300 dimensions
+Performing SVD with d=300...
+SVD complete. Embedding shape: (23496, 300)
+
+Applying row_normalize normalization
+Applying row_normalize normalization...
+
+Reducing to d=50 dimensions
+Performing SVD with d=50...
+SVD complete. Embedding shape: (23496, 50)
+
+Reducing to d=100 dimensions
+Performing SVD with d=100...
+SVD complete. Embedding shape: (23496, 100)
+
+Reducing to d=200 dimensions
+Performing SVD with d=200...
+SVD complete. Embedding shape: (23496, 200)
+
+Reducing to d=300 dimensions
+Performing SVD with d=300...
+SVD complete. Embedding shape: (23496, 300)
+
+Processing matrix with window size 2
+
+Applying ppmi normalization
+Applying ppmi normalization...
+
+Reducing to d=50 dimensions
+Performing SVD with d=50...
+SVD complete. Embedding shape: (23496, 50)
+
+Reducing to d=100 dimensions
+Performing SVD with d=100...
+SVD complete. Embedding shape: (23496, 100)
+
+Reducing to d=200 dimensions
+Performing SVD with d=200...
+SVD complete. Embedding shape: (23496, 200)
+
+Reducing to d=300 dimensions
+Performing SVD with d=300...
+SVD complete. Embedding shape: (23496, 300)
+
+Applying tfidf normalization
+Applying tfidf normalization...
+
+Reducing to d=50 dimensions
+Performing SVD with d=50...
+SVD complete. Embedding shape: (23496, 50)
+
+Reducing to d=100 dimensions
+Performing SVD with d=100...
+SVD complete. Embedding shape: (23496, 100)
+
+Reducing to d=200 dimensions
+Performing SVD with d=200...
+SVD complete. Embedding shape: (23496, 200)
+
+Reducing to d=300 dimensions
+Performing SVD with d=300...
+SVD complete. Embedding shape: (23496, 300)
+
+Applying row_normalize normalization
+Applying row_normalize normalization...
+
+Reducing to d=50 dimensions
+Performing SVD with d=50...
+SVD complete. Embedding shape: (23496, 50)
+
+Reducing to d=100 dimensions
+Performing SVD with d=100...
+SVD complete. Embedding shape: (23496, 100)
+
+Reducing to d=200 dimensions
+Performing SVD with d=200...
+SVD complete. Embedding shape: (23496, 200)
+
+Reducing to d=300 dimensions
+Performing SVD with d=300...
+SVD complete. Embedding shape: (23496, 300)
+
+Processing matrix with window size 4
+
+Applying ppmi normalization
+Applying ppmi normalization...
+
+Reducing to d=50 dimensions
+Performing SVD with d=50...
+SVD complete. Embedding shape: (23496, 50)
+
+Reducing to d=100 dimensions
+Performing SVD with d=100...
+SVD complete. Embedding shape: (23496, 100)
+
+Reducing to d=200 dimensions
+Performing SVD with d=200...
+SVD complete. Embedding shape: (23496, 200)
+
+Reducing to d=300 dimensions
+Performing SVD with d=300...
+SVD complete. Embedding shape: (23496, 300)
+
+Applying tfidf normalization
+Applying tfidf normalization...
+
+Reducing to d=50 dimensions
+Performing SVD with d=50...
+SVD complete. Embedding shape: (23496, 50)
+
+Reducing to d=100 dimensions
+Performing SVD with d=100...
+SVD complete. Embedding shape: (23496, 100)
+
+Reducing to d=200 dimensions
+Performing SVD with d=200...
+SVD complete. Embedding shape: (23496, 200)
+
+Reducing to d=300 dimensions
+Performing SVD with d=300...
+SVD complete. Embedding shape: (23496, 300)
+
+Applying row_normalize normalization
+Applying row_normalize normalization...
+
+Reducing to d=50 dimensions
+Performing SVD with d=50...
+SVD complete. Embedding shape: (23496, 50)
+
+Reducing to d=100 dimensions
+Performing SVD with d=100...
+SVD complete. Embedding shape: (23496, 100)
+
+Reducing to d=200 dimensions
+Performing SVD with d=200...
+SVD complete. Embedding shape: (23496, 200)
+
+Reducing to d=300 dimensions
+Performing SVD with d=300...
+SVD complete. Embedding shape: (23496, 300)
+
+Processing matrix with window size 6
+
+Applying ppmi normalization
+Applying ppmi normalization...
+
+Reducing to d=50 dimensions
+Performing SVD with d=50...
+SVD complete. Embedding shape: (23496, 50)
+
+Reducing to d=100 dimensions
+Performing SVD with d=100...
+SVD complete. Embedding shape: (23496, 100)
+
+Reducing to d=200 dimensions
+Performing SVD with d=200...
+SVD complete. Embedding shape: (23496, 200)
+
+Reducing to d=300 dimensions
+Performing SVD with d=300...
+SVD complete. Embedding shape: (23496, 300)
+
+Applying tfidf normalization
+Applying tfidf normalization...
+
+Reducing to d=50 dimensions
+Performing SVD with d=50...
+SVD complete. Embedding shape: (23496, 50)
+
+Reducing to d=100 dimensions
+Performing SVD with d=100...
+SVD complete. Embedding shape: (23496, 100)
+
+Reducing to d=200 dimensions
+Performing SVD with d=200...
+SVD complete. Embedding shape: (23496, 200)
+
+Reducing to d=300 dimensions
+Performing SVD with d=300...
+SVD complete. Embedding shape: (23496, 300)
+
+Applying row_normalize normalization
+Applying row_normalize normalization...
+
+Reducing to d=50 dimensions
+Performing SVD with d=50...
+SVD complete. Embedding shape: (23496, 50)
+
+Reducing to d=100 dimensions
+Performing SVD with d=100...
+SVD complete. Embedding shape: (23496, 100)
+
+Reducing to d=200 dimensions
+Performing SVD with d=200...
+SVD complete. Embedding shape: (23496, 200)
+
+Reducing to d=300 dimensions
+Performing SVD with d=300...
+SVD complete. Embedding shape: (23496, 300)
+
+Processing matrix with window size 8
+
+Applying ppmi normalization
+Applying ppmi normalization...
+
+Reducing to d=50 dimensions
+Performing SVD with d=50...
+SVD complete. Embedding shape: (23496, 50)
+
+Reducing to d=100 dimensions
+Performing SVD with d=100...
+SVD complete. Embedding shape: (23496, 100)
+
+Reducing to d=200 dimensions
+Performing SVD with d=200...
+SVD complete. Embedding shape: (23496, 200)
+
+Reducing to d=300 dimensions
+Performing SVD with d=300...
+SVD complete. Embedding shape: (23496, 300)
+
+Applying tfidf normalization
+Applying tfidf normalization...
+
+Reducing to d=50 dimensions
+Performing SVD with d=50...
+SVD complete. Embedding shape: (23496, 50)
+
+Reducing to d=100 dimensions
+Performing SVD with d=100...
+SVD complete. Embedding shape: (23496, 100)
+
+Reducing to d=200 dimensions
+Performing SVD with d=200...
+SVD complete. Embedding shape: (23496, 200)
+
+Reducing to d=300 dimensions
+Performing SVD with d=300...
+SVD complete. Embedding shape: (23496, 300)
+
+Applying row_normalize normalization
+Applying row_normalize normalization...
+
+Reducing to d=50 dimensions
+Performing SVD with d=50...
+SVD complete. Embedding shape: (23496, 50)
+
+Reducing to d=100 dimensions
+Performing SVD with d=100...
+SVD complete. Embedding shape: (23496, 100)
+
+Reducing to d=200 dimensions
+Performing SVD with d=200...
+SVD complete. Embedding shape: (23496, 200)
+
+Reducing to d=300 dimensions
+Performing SVD with d=300...
+SVD complete. Embedding shape: (23496, 300)
+
+All processing complete in 706.53 seconds
+
+================================================================================
+
+Running scripts/enhanced_evaluation.py
+================================================================================
+Standard Error:
+Using GPU with 4.29GB memory
+
+Processing embedding files:   0%|          | 0/60 [00:00<?, ?it/s]
+Evaluating embeddings_w10_ppmi_d100.npy
+
+Processing embedding files:   2%|▏         | 1/60 [00:12<12:37, 12.84s/it]
+Evaluating embeddings_w10_ppmi_d200.npy
+
+Processing embedding files:   3%|▎         | 2/60 [00:26<12:49, 13.26s/it]
+Evaluating embeddings_w10_ppmi_d300.npy
+
+Processing embedding files:   5%|▌         | 3/60 [00:39<12:36, 13.26s/it]
+Evaluating embeddings_w10_ppmi_d50.npy
+
+Processing embedding files:   7%|▋         | 4/60 [00:52<12:05, 12.95s/it]
+Evaluating embeddings_w10_rownormalize_d100.npy
+
+Processing embedding files:   8%|▊         | 5/60 [01:05<11:54, 13.00s/it]
+Evaluating embeddings_w10_rownormalize_d200.npy
+
+Processing embedding files:  10%|█         | 6/60 [01:16<11:18, 12.56s/it]
+Evaluating embeddings_w10_rownormalize_d300.npy
+
+Processing embedding files:  12%|█▏        | 7/60 [01:31<11:37, 13.16s/it]
+Evaluating embeddings_w10_rownormalize_d50.npy
+
+Processing embedding files:  13%|█▎        | 8/60 [01:41<10:43, 12.37s/it]
+Evaluating embeddings_w10_tfidf_d100.npy
+
+Processing embedding files:  15%|█▌        | 9/60 [01:55<10:47, 12.71s/it]
+Evaluating embeddings_w10_tfidf_d200.npy
+
+Processing embedding files:  17%|█▋        | 10/60 [02:07<10:19, 12.39s/it]
+Evaluating embeddings_w10_tfidf_d300.npy
+
+Processing embedding files:  18%|█▊        | 11/60 [02:21<10:29, 12.85s/it]
+Evaluating embeddings_w10_tfidf_d50.npy
+
+Processing embedding files:  20%|██        | 12/60 [02:34<10:21, 12.94s/it]
+Evaluating embeddings_w2_ppmi_d100.npy
+
+Processing embedding files:  22%|██▏       | 13/60 [02:45<09:47, 12.51s/it]
+Evaluating embeddings_w2_ppmi_d200.npy
+
+Processing embedding files:  23%|██▎       | 14/60 [02:58<09:44, 12.71s/it]
+Evaluating embeddings_w2_ppmi_d300.npy
+
+Processing embedding files:  25%|██▌       | 15/60 [03:11<09:35, 12.80s/it]
+Evaluating embeddings_w2_ppmi_d50.npy
+
+Processing embedding files:  27%|██▋       | 16/60 [03:24<09:16, 12.65s/it]
+Evaluating embeddings_w2_rownormalize_d100.npy
+
+Processing embedding files:  28%|██▊       | 17/60 [03:36<09:06, 12.70s/it]
+Evaluating embeddings_w2_rownormalize_d200.npy
+
+Processing embedding files:  30%|███       | 18/60 [03:48<08:43, 12.47s/it]
+Evaluating embeddings_w2_rownormalize_d300.npy
+
+Processing embedding files:  32%|███▏      | 19/60 [04:03<08:54, 13.03s/it]
+Evaluating embeddings_w2_rownormalize_d50.npy
+
+Processing embedding files:  33%|███▎      | 20/60 [04:14<08:20, 12.52s/it]
+Evaluating embeddings_w2_tfidf_d100.npy
+
+Processing embedding files:  35%|███▌      | 21/60 [04:27<08:14, 12.69s/it]
+Evaluating embeddings_w2_tfidf_d200.npy
+
+Processing embedding files:  37%|███▋      | 22/60 [04:40<08:03, 12.72s/it]
+Evaluating embeddings_w2_tfidf_d300.npy
+
+Processing embedding files:  38%|███▊      | 23/60 [04:53<07:58, 12.93s/it]
+Evaluating embeddings_w2_tfidf_d50.npy
+
+Processing embedding files:  40%|████      | 24/60 [05:06<07:40, 12.80s/it]
+Evaluating embeddings_w4_ppmi_d100.npy
+
+Processing embedding files:  42%|████▏     | 25/60 [05:17<07:12, 12.36s/it]
+Evaluating embeddings_w4_ppmi_d200.npy
+
+Processing embedding files:  43%|████▎     | 26/60 [05:30<07:09, 12.62s/it]
+Evaluating embeddings_w4_ppmi_d300.npy
+
+Processing embedding files:  45%|████▌     | 27/60 [05:44<07:04, 12.88s/it]
+Evaluating embeddings_w4_ppmi_d50.npy
+
+Processing embedding files:  47%|████▋     | 28/60 [05:56<06:45, 12.69s/it]
+Evaluating embeddings_w4_rownormalize_d100.npy
+
+Processing embedding files:  48%|████▊     | 29/60 [06:09<06:33, 12.68s/it]
+Evaluating embeddings_w4_rownormalize_d200.npy
+
+Processing embedding files:  50%|█████     | 30/60 [06:21<06:13, 12.45s/it]
+Evaluating embeddings_w4_rownormalize_d300.npy
+
+Processing embedding files:  52%|█████▏    | 31/60 [06:35<06:12, 12.85s/it]
+Evaluating embeddings_w4_rownormalize_d50.npy
+
+Processing embedding files:  53%|█████▎    | 32/60 [06:46<05:47, 12.40s/it]
+Evaluating embeddings_w4_tfidf_d100.npy
+
+Processing embedding files:  55%|█████▌    | 33/60 [06:58<05:34, 12.37s/it]
+Evaluating embeddings_w4_tfidf_d200.npy
+
+Processing embedding files:  57%|█████▋    | 34/60 [07:12<05:32, 12.78s/it]
+Evaluating embeddings_w4_tfidf_d300.npy
+
+Processing embedding files:  58%|█████▊    | 35/60 [07:25<05:19, 12.76s/it]
+Evaluating embeddings_w4_tfidf_d50.npy
+
+Processing embedding files:  60%|██████    | 36/60 [07:38<05:07, 12.82s/it]
+Evaluating embeddings_w6_ppmi_d100.npy
+
+Processing embedding files:  62%|██████▏   | 37/60 [07:49<04:47, 12.51s/it]
+Evaluating embeddings_w6_ppmi_d200.npy
+
+Processing embedding files:  63%|██████▎   | 38/60 [08:03<04:42, 12.83s/it]
+Evaluating embeddings_w6_ppmi_d300.npy
+
+Processing embedding files:  65%|██████▌   | 39/60 [08:18<04:43, 13.51s/it]
+Evaluating embeddings_w6_ppmi_d50.npy
+
+Processing embedding files:  67%|██████▋   | 40/60 [08:30<04:20, 13.04s/it]
+Evaluating embeddings_w6_rownormalize_d100.npy
+
+Processing embedding files:  68%|██████▊   | 41/60 [08:43<04:04, 12.89s/it]
+Evaluating embeddings_w6_rownormalize_d200.npy
+
+Processing embedding files:  70%|███████   | 42/60 [08:54<03:46, 12.56s/it]
+Evaluating embeddings_w6_rownormalize_d300.npy
+
+Processing embedding files:  72%|███████▏  | 43/60 [09:08<03:41, 13.00s/it]
+Evaluating embeddings_w6_rownormalize_d50.npy
+
+Processing embedding files:  73%|███████▎  | 44/60 [09:21<03:23, 12.75s/it]
+Evaluating embeddings_w6_tfidf_d100.npy
+
+Processing embedding files:  75%|███████▌  | 45/60 [09:31<03:02, 12.16s/it]
+Evaluating embeddings_w6_tfidf_d200.npy
+
+Processing embedding files:  77%|███████▋  | 46/60 [09:45<02:56, 12.62s/it]
+Evaluating embeddings_w6_tfidf_d300.npy
+
+Processing embedding files:  78%|███████▊  | 47/60 [09:59<02:47, 12.90s/it]
+Evaluating embeddings_w6_tfidf_d50.npy
+
+Processing embedding files:  80%|████████  | 48/60 [10:11<02:31, 12.66s/it]
+Evaluating embeddings_w8_ppmi_d100.npy
+
+Processing embedding files:  82%|████████▏ | 49/60 [10:22<02:16, 12.38s/it]
+Evaluating embeddings_w8_ppmi_d200.npy
+
+Processing embedding files:  83%|████████▎ | 50/60 [10:36<02:06, 12.67s/it]
+Evaluating embeddings_w8_ppmi_d300.npy
+
+Processing embedding files:  85%|████████▌ | 51/60 [10:50<01:58, 13.12s/it]
+Evaluating embeddings_w8_ppmi_d50.npy
+
+Processing embedding files:  87%|████████▋ | 52/60 [11:01<01:40, 12.55s/it]
+Evaluating embeddings_w8_rownormalize_d100.npy
+
+Processing embedding files:  88%|████████▊ | 53/60 [11:14<01:28, 12.59s/it]
+Evaluating embeddings_w8_rownormalize_d200.npy
+
+Processing embedding files:  90%|█████████ | 54/60 [11:25<01:13, 12.22s/it]
+Evaluating embeddings_w8_rownormalize_d300.npy
+
+Processing embedding files:  92%|█████████▏| 55/60 [11:40<01:04, 12.87s/it]
+Evaluating embeddings_w8_rownormalize_d50.npy
+
+Processing embedding files:  93%|█████████▎| 56/60 [11:52<00:50, 12.70s/it]
+Evaluating embeddings_w8_tfidf_d100.npy
+
+Processing embedding files:  95%|█████████▌| 57/60 [12:03<00:36, 12.15s/it]
+Evaluating embeddings_w8_tfidf_d200.npy
+
+Processing embedding files:  97%|█████████▋| 58/60 [12:16<00:25, 12.55s/it]
+Evaluating embeddings_w8_tfidf_d300.npy
+
+Processing embedding files:  98%|█████████▊| 59/60 [12:29<00:12, 12.58s/it]
+Evaluating embeddings_w8_tfidf_d50.npy
+
+Processing embedding files: 100%|██████████| 60/60 [12:42<00:00, 12.62s/it]
+Processing embedding files: 100%|██████████| 60/60 [12:42<00:00, 12.70s/it]
+Saved evaluation summary CSV to evaluation_results/evaluation_summary.csv
+
+Evaluation Summary:
+Processing Time: 799.57 seconds
+Errors Encountered: 0
+Warnings Generated: 0
+Evaluation completed successfully!
+
+================================================================================
+

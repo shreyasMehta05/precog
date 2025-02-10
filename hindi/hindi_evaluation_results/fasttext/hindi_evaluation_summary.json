@@ -1,0 +1,10 @@
+[
+    {
+        "Model-Type": "fasttext",
+        "Dimensions": 300,
+        "Vocabulary-Size": 30791,
+        "Analogy-Accuracy": 1.0,
+        "Analogy-Coverage": 0.6666666666666666,
+        "Clustering-Silhouette": -0.03987135738134384
+    }
+]

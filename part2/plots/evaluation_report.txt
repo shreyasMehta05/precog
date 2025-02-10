@@ -1,0 +1,7 @@
+Evaluation Report for Cross-Lingual Alignment
+=============================================
+Total evaluated pairs: 4719
+Precision@1: 0.00%
+Precision@5: 0.00%
+Precision@10: 0.00%
+Mean Reciprocal Rank (MRR): 0.0000

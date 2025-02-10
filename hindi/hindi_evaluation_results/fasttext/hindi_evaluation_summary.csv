@@ -1,0 +1,2 @@
+Model-Type,Dimensions,Vocabulary-Size,Analogy-Accuracy,Analogy-Coverage,Clustering-Silhouette
+fasttext,300,30791,1.0,0.6666666666666666,-0.039871357

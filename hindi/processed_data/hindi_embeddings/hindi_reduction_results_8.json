@@ -1,0 +1,170 @@
+{
+  "w8_ppmi_d50": {
+    "window_size": 8,
+    "normalization": "ppmi",
+    "dimensions": 50,
+    "original_shape": [
+      30791,
+      30791
+    ],
+    "embedding_shape": [
+      30791,
+      50
+    ],
+    "file_path": "processed_data/hindi_embeddings/hindi_embeddings_w8_ppmi_d50.npy"
+  },
+  "w8_ppmi_d100": {
+    "window_size": 8,
+    "normalization": "ppmi",
+    "dimensions": 100,
+    "original_shape": [
+      30791,
+      30791
+    ],
+    "embedding_shape": [
+      30791,
+      100
+    ],
+    "file_path": "processed_data/hindi_embeddings/hindi_embeddings_w8_ppmi_d100.npy"
+  },
+  "w8_ppmi_d200": {
+    "window_size": 8,
+    "normalization": "ppmi",
+    "dimensions": 200,
+    "original_shape": [
+      30791,
+      30791
+    ],
+    "embedding_shape": [
+      30791,
+      200
+    ],
+    "file_path": "processed_data/hindi_embeddings/hindi_embeddings_w8_ppmi_d200.npy"
+  },
+  "w8_ppmi_d300": {
+    "window_size": 8,
+    "normalization": "ppmi",
+    "dimensions": 300,
+    "original_shape": [
+      30791,
+      30791
+    ],
+    "embedding_shape": [
+      30791,
+      300
+    ],
+    "file_path": "processed_data/hindi_embeddings/hindi_embeddings_w8_ppmi_d300.npy"
+  },
+  "w8_tfidf_d50": {
+    "window_size": 8,
+    "normalization": "tfidf",
+    "dimensions": 50,
+    "original_shape": [
+      30791,
+      30791
+    ],
+    "embedding_shape": [
+      30791,
+      50
+    ],
+    "file_path": "processed_data/hindi_embeddings/hindi_embeddings_w8_tfidf_d50.npy"
+  },
+  "w8_tfidf_d100": {
+    "window_size": 8,
+    "normalization": "tfidf",
+    "dimensions": 100,
+    "original_shape": [
+      30791,
+      30791
+    ],
+    "embedding_shape": [
+      30791,
+      100
+    ],
+    "file_path": "processed_data/hindi_embeddings/hindi_embeddings_w8_tfidf_d100.npy"
+  },
+  "w8_tfidf_d200": {
+    "window_size": 8,
+    "normalization": "tfidf",
+    "dimensions": 200,
+    "original_shape": [
+      30791,
+      30791
+    ],
+    "embedding_shape": [
+      30791,
+      200
+    ],
+    "file_path": "processed_data/hindi_embeddings/hindi_embeddings_w8_tfidf_d200.npy"
+  },
+  "w8_tfidf_d300": {
+    "window_size": 8,
+    "normalization": "tfidf",
+    "dimensions": 300,
+    "original_shape": [
+      30791,
+      30791
+    ],
+    "embedding_shape": [
+      30791,
+      300
+    ],
+    "file_path": "processed_data/hindi_embeddings/hindi_embeddings_w8_tfidf_d300.npy"
+  },
+  "w8_row_normalize_d50": {
+    "window_size": 8,
+    "normalization": "row_normalize",
+    "dimensions": 50,
+    "original_shape": [
+      30791,
+      30791
+    ],
+    "embedding_shape": [
+      30791,
+      50
+    ],
+    "file_path": "processed_data/hindi_embeddings/hindi_embeddings_w8_rownormalize_d50.npy"
+  },
+  "w8_row_normalize_d100": {
+    "window_size": 8,
+    "normalization": "row_normalize",
+    "dimensions": 100,
+    "original_shape": [
+      30791,
+      30791
+    ],
+    "embedding_shape": [
+      30791,
+      100
+    ],
+    "file_path": "processed_data/hindi_embeddings/hindi_embeddings_w8_rownormalize_d100.npy"
+  },
+  "w8_row_normalize_d200": {
+    "window_size": 8,
+    "normalization": "row_normalize",
+    "dimensions": 200,
+    "original_shape": [
+      30791,
+      30791
+    ],
+    "embedding_shape": [
+      30791,
+      200
+    ],
+    "file_path": "processed_data/hindi_embeddings/hindi_embeddings_w8_rownormalize_d200.npy"
+  },
+  "w8_row_normalize_d300": {
+    "window_size": 8,
+    "normalization": "row_normalize",
+    "dimensions": 300,
+    "original_shape": [
+      30791,
+      30791
+    ],
+    "embedding_shape": [
+      30791,
+      300
+    ],
+    "file_path": "processed_data/hindi_embeddings/hindi_embeddings_w8_rownormalize_d300.npy"
+  }
+}
