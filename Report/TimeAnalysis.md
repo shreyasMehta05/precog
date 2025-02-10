@@ -83,7 +83,4 @@ This initial phase aimed to test the feasibility of the approach and verify that
 
 ---
 
-## 🌟 **Conclusion**
-
-This project demonstrates the potential of using **co-occurrence matrices** combined with **dimensionality reduction** to generate dense word embeddings. While the initial results are promising, there is room for optimization and further experimentation to fully leverage the power of large-scale datasets and computational resources. The next steps will focus on refining the process to ensure high performance across even larger datasets and more complex NLP tasks.
 
