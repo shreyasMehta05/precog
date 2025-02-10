@@ -2,6 +2,9 @@
 
 Language is a rich tapestry of meaning and structure, and understanding it computationally remains one of the great challenges in artificial intelligence. In this project, we explore the science of word embeddings—a method to represent words in a continuous, high-dimensional space that captures their meanings. Through this work, we generate dense word representations from large text corpora, evaluate their quality, and work on cross-lingual alignment between English and Hindi embeddings.
 
+## Author
+- Shreyas Mehta (2023101059)
+  CSE, IIIT-Hyderabad
 ---
 
 ## Table of Contents
