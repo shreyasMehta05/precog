@@ -81,9 +81,9 @@ precog/
 ├── Results_Part1_Concise              # Results and analysis for Part 1 (Dense Representations)
 ├── Part1.md                           # Detailed documentation for Part 1 tasks
 ├── Report                             # Contains Reports for better understanding kindly open the link shared in the form
-├── english/                          # Scripts and data related to English language processing
-├── hindi/                            # Scripts and data related to Hindi language processing
-├── imgs/                             # Images used in the report and presentation
+├── english/                          # Scripts and data related to English language Part - 1
+├── hindi/                            # Scripts and data related to Hindi language Part-1
+├── imgs/                             # Temporary images for html rendering
 ├── part2/                            # Contains files for cross-lingual alignment (Part 2)
 │   └── Tried_Approaches_Incomplete/
 │       └── crossLingualAlignment/
@@ -100,8 +100,8 @@ precog/
 │               ├── quantitative_evaluation.py
 │               └── visualisation_evaluation.py
 ├── paper_reading_task_link.txt        # Link(s) to the paper reading task resources
-├── part3/                            # Additional tasks or extensions (if any)
-├── test/                             # Testing scripts and data
+├── part3/                            # Bonus task: Harmful Associations
+├── test/                             # Testing scripts for gpu and time analysis for 1st part
 ├── requirements.txt                  # List of required Python packages
 ```
 

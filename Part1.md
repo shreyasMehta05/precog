@@ -76,7 +76,7 @@ Precog/
 │   └── test_data/
 ├── hindi/
 │   └── (similar structure as english)
-├── part1.py
+├── Part1.md # This file for hindi and english folder
 ├── summary.md
 ├── test/
 ├── tokenizer.log
